@@ -9,4 +9,7 @@ public interface IPrinterFarmComponent
 {
     public Task<List<PrinterStatus>> ReadAllPrinterStatusAsync();
     public Task SendSTlToAnyAvailablePrinterAsync(Guid stlDocumentId);
+    public Task<PrinterFarm> GetPrinterFarmAsync(Guid printerFarmId);
+    public Task AddPrinterFarmAsync(PrinterFarm printerFarm);
+    public Task RemovePrinterFarmAsync(PrinterFarm printerFarm);
 }

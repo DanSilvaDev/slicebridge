@@ -12,9 +12,7 @@ public record PrintedProduct
     public string? PicturePath { get; set; }
     public PrintedProductStatusEnum StatusEnum { get; set; }
     public string? Justification { get; set; }
-    //Todo: considering the creation of an object called PrintOrder
-    // so it can make the relationship between order and all products printed
-    public Guid? OrderId { get; set; }
+    public PrintOrder? OrderId { get; set; }
 }
 
 public enum PrintedProductStatusEnum
