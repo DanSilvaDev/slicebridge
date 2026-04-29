@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using SliceBridge.Core.Marketplaces.Components;
-using SliceBridge.Core.Marketplaces.Components.Interfaces;
+using SliceBridge.Core.Domain.Marketplaces.Components;
+using SliceBridge.Core.Domain.Marketplaces.Components.Interfaces;
 
 namespace SliceBridge.Core.Extensions;
 
