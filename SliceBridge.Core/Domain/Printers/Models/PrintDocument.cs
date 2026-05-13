@@ -4,7 +4,7 @@ using SliceBridge.Core.Domain.Printers.Models.Enums;
 
 namespace SliceBridge.Core.Domain.Printers.Models;
 
-public sealed class StlDocument
+public sealed class PrintDocument
 {
     public required Guid Id { get; set; }
     public required string Name { get; set; }

@@ -7,7 +7,7 @@ public class Product
 {
     public Guid Id { get; set; }
     public required string Name { get; set; }
-    public Guid? StlDocumentId { get; set; }
+    public Guid? DocumentId { get; set; }
     public List<ProductMarketplace>? MarketplaceIds { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime? LastUpdatedAt { get; set; }

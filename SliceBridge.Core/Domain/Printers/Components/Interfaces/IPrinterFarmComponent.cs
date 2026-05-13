@@ -8,7 +8,7 @@ namespace SliceBridge.Core.Domain.Printers.Components.Interfaces;
 public interface IPrinterFarmComponent
 {
     public Task<List<PrinterStatus>> ReadAllPrinterStatusAsync();
-    public Task SendSTlToAnyAvailablePrinterAsync(Guid stlDocumentId);
+    public Task SendDocumentToAnyAvailablePrinterAsync(Guid documentId);
     public Task<PrinterFarm> GetPrinterFarmAsync(Guid printerFarmId);
     public Task AddPrinterFarmAsync(PrinterFarm printerFarm);
     public Task RemovePrinterFarmAsync(PrinterFarm printerFarm);

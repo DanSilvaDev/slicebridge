@@ -6,7 +6,7 @@ public record PrintedProduct
 {
     public Guid ProductId { get; set; }
     public Guid PrinterId { get; set; }
-    public Guid StlDocumentId { get; set; }
+    public Guid DocumentId { get; set; }
     public DateTime PrintedAt { get; set; }
     public TimeSpan? ElapsedTime { get; set; }
     public string? PicturePath { get; set; }
